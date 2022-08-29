@@ -9,3 +9,7 @@ function solveCalculus() {
     document.getElementById("field").value = solve;
     return solve;
 }
+
+function clean() {
+    document.getElementById("field").value = "";
+}
