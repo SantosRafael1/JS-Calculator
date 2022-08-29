@@ -12,38 +12,38 @@
     <main>
         <div class="container">
             <!--Field-->
-            <input type="text" name="field" class="field" disabled>
+            <input type="text" name="field" class="field" id="field" disabled>
 
             <!--first row-->
             <div>
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn operations">+</button>
+                <button class="btn" onclick="displayNumers('1')">1</button>
+                <button class="btn" onclick="displayNumers('2')">2</button>
+                <button class="btn" onclick="displayNumers('3')">3</button>
+                <button class="btn operations" onclick="displayNumers('+')">+</button>
             </div>
 
             <!--second row-->
             <div>
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn operations">-</button>
+                <button class="btn" onclick="displayNumers('4')">4</button>
+                <button class="btn" onclick="displayNumers('5')">5</button>
+                <button class="btn" onclick="displayNumers('6')">6</button>
+                <button class="btn operations" onclick="displayNumers('-')">-</button>
             </div>
 
             <!--third row-->
             <div>
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn operations">x</button>
+                <button class="btn" onclick="displayNumers('7')">7</button>
+                <button class="btn" onclick="displayNumers('8')">8</button>
+                <button class="btn" onclick="displayNumers('9')">9</button>
+                <button class="btn operations" onclick="displayNumers('*')">x</button>
             </div>
 
             <!--fourth row-->
             <div>
-                <button class="btn">0</button>
-                <button class="btn operations">.</button>
-                <button class="btn equals-btn">=</button>
-                <button class="btn operations">/</button>
+                <button class="btn" onclick="displayNumers('0')">0</button>
+                <button class="btn operations" onclick="displayNumers('.')">.</button>
+                <button class="btn equals-btn" >=</button>
+                <button class="btn operations" onclick="displayNumers('/')">/</button>
             </div>
 
             <div>
