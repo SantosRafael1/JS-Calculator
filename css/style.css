@@ -43,7 +43,9 @@
 }
 
 .operations{
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    background-color: rgb(236, 99, 122);
+    color: white;
 }
 
 .field {
