@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1{
+    font-family: monospace, Arial;
+}
+
 .container{
     max-width: 500px;
     margin: 0 auto;
